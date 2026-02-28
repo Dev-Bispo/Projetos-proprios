@@ -1,0 +1,131 @@
+body {
+    background-color: #010e0d;
+    position: absolute;
+    
+}
+
+
+/*Desingner das imagens*/
+img{
+    display: flex;
+    width: 10vw; 
+    margin-left: 6vw;
+    position: absolute;
+   
+}
+
+#lupa{
+    display: flex;
+    width:4vw;
+    margin-left: 55.8vw;
+    position: absolute;
+    
+}
+
+
+
+#login{
+    display: flex;
+    width:4vw;
+    margin-left: 67vw;
+    position: absolute;
+    
+}
+
+#engrenagem{
+    display: flex;
+    width:4vw;
+    margin-left: 74vw;
+    position: absolute;
+    
+}
+
+#notificacao{
+    display: flex;
+    width:4vw;
+    margin-left: 81vw;
+    position: absolute;
+    
+}
+
+#carrossel{
+    display: flex;
+    background-color: #71cbc5;
+    width: 55vw;
+    height: 20vw;
+    border-radius: 2vw;
+    position: absolute;
+    margin-top: 5vw;
+    margin-left:27vw;
+    }
+
+
+.barra_lateral{
+    padding: 0%;
+    flex-direction: column;
+    align-items: center;
+    width:13vw;
+    height: 30vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    position: absolute;
+    background-color: #71cbc5;
+    border-radius: 2vw;
+    overflow-y: scroll;
+    overflow-x: hidden ;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width:auto;
+    scrollbar-color: rgb(255, 255, 255) #009f94;
+    scroll-padding: 30px;
+    scroll-margin-left: 10px;
+}
+
+.barra_lateral::-webkit-scrollbar {
+    width: 10px;
+    }
+
+.barra_lateral::-webkit-scrollbar-track {
+    background-color: #009f94;
+    }    
+
+.barra_lateral::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    }
+
+.barra_lateral li{
+    height: 35vw;
+    scroll-snap-align: start;
+    list-style: none;
+
+    }
+
+#principal{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    width:100%;
+    position:relative;
+}
+
+
+input{
+    border-radius: 2vw;
+    border:none;
+    background-color: #062b29;
+    max-width: 100%;
+    height: 4vw;
+    display: flex;
+    margin-left: 27vw;
+    margin-top: 3vw ;
+    width: 33vw ;
+    
+   
+    
+}
+
+#cabecalho{
+    justify-items: center;
+    justify-items: center;
+}

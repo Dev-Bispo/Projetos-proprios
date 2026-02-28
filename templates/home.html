@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+<!--{} [ ]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <img id="logo" name="logo" src="{{url_for('static',filename='imagem/corvo_principal.png')}}" width="200" >
+    <div id="cabecalho" name="cabecalho">
+        <img id="login" name="login" src="{{url_for('static',filename='imagem/login.png')}}" width="200">
+        <img id="engrenagem" name="engrenagem" src="{{url_for('static',filename='imagem/engrenagem.png')}}" width="200">
+        <img id="notificacao" name="notificacao" src="{{url_for('static',filename='imagem/notificacao.png')}}" width="200">
+        
+        <label for="pesquisa"><img id="lupa" src="{{url_for('static',filename='imagem/lupa.png')}}" width="200"></label>        
+        <input id="pesquisa" name="pesquisa" placeholder="Pesquisa">
+    </div>
+    <div id="principal" name="principal">
+        <div class="barra_lateral" name="barra_lateral">
+            
+            <ul class="fita_de_imagens">
+                <li><img src="{{url_for('static',filename='imagem/lupa.png')}}" width="200"></li>
+                <li></li>
+                <li></li>
+            </ul>
+            
+        </div>
+        <div id="carrossel" name="carrossel">
+            
+        </div>
+    </div>
+</body>
+</html>

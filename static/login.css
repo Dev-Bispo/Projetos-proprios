@@ -1,0 +1,13 @@
+.p_link{
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+#principal{
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    background-color: #010e0d;
+    padding: 10%;
+}

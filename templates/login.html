@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='login.css')}}" </head>
+
+<body>
+
+    <div id="principal">
+        <form>
+            <input type="email" placeholder="email" name='email' required>
+            <br>
+            <br>
+            <input type="text" placeholder="senha" name="senha" required>
+            <br>
+            <br>
+            <button type="submit" class="entrar" name="entrar">Entrar</button>
+            <button type="submit" class="voltar" name="voltar" class="voltar">Voltar</button>
+
+        </form>
+        <p class="p_link">Não possui cadastro? <a href="/cadastro">Cadastre-se</a></p>
+
+
+    </div>
+</body>
+
+</html>
